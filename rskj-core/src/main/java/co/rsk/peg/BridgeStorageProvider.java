@@ -53,7 +53,7 @@ public class BridgeStorageProvider {
     private static final String BRIDGE_RETIRING_FEDERATION_KEY = "bridgeRetiringFederation";
     private static final String BRIDGE_PENDING_FEDERATION_KEY = "bridgePendingFederation";
     private static final String BRIDGE_FEDERATION_ELECTION_KEY = "bridgeFederationElection";
-    private static final String LOCK_WHITELIST_KEY = "lockWhitelist";
+    private static final String LOCK_WHITELIST_KEY = "bridgeLockWhitelist";
 
     private static final NetworkParameters networkParameters = RskSystemProperties.CONFIG.getBlockchainConfig().getCommonConstants().getBridgeConstants().getBtcParams();
 
